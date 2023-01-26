@@ -10,7 +10,20 @@ The designs were created to the following widths:
 
 # Design screenshots
 
-![]
+# Active-states
+![Active-states](./design/active-states.jpg)
+
+# Desktop-preview
+![Desktop-preview](./design/desktop-preview.jpg)
+
+# Desktop Layout
+![Desktop layout](./design/desktop-design.jpg)
+
+# Mobile Layout
+![Desktop layout](./design/mobile-design.jpg)
+
+# Mobile menu
+![Mobile menu](./design/mobile-menu.jpg)
 
 ## Colors
 
