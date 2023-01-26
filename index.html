@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="News homepage, Frontend Mentor News Homepage">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets\images\favicon-32x32.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body style="overflow-y: auto;" tabindex="0">
+
+  <!-- container to wrap everything -->
+  <main class="container">
+
+    <!-- header -->
+    <header class="d-flex header">
+      <!-- logo -->
+      <a href="index.html"><img src="./assets/images/logo.svg" alt="News homepage logo"></a>
+
+      <!-- links -->
+      <nav class="links">
+        <ul class="d-flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">New</a></li>
+          <li><a href="index.html">Popular</a></li>
+          <li><a href="index.html">Trending</a></li>
+          <li><a href="index.html">Categories</a></li>
+        </ul>
+      </nav>
+
+      <!-- hamburger-icon -->
+      <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg" class="hamburger_icon"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
+
+    </header>
+
+    <!-- hamburger -->
+    <div class="hamburger_container">
+      <div class="hamburger_content">
+        <!-- dark-overlay -->
+        <div class="dummy_container"></div>
+
+        <!-- hamburger_menu -->
+        <div class="hamburger_menu">
+          <!-- close_icon -->
+          <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg" class="close_icon"><g fill="#00001A" fill-rule="evenodd"><path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/><path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/></g></svg>
+
+          <!-- hamburger_nav -->
+          <nav class="hamburger_nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- news area -->
+    <section class="news_area d-flex d-flex-m">
+      <!-- news_info -->
+      <div class="news_info">
+        <!-- news_bg -->
+        <div class="news_bg"></div>
+
+        <!-- news_intro -->
+        <div class="news_intro d-flex d-flex-m">
+          <!-- heading -->
+          <h1>The Bright Future of Web 3.0?</h1>
+
+          <!-- info -->
+          <div class="info">
+
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the
+              hands of the people.
+              But is it really fulfilling its promise?
+            </p>
+
+              <a href="index.html" class="read_more">READ MORE</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- new-content -->
+      <div class="new_content">
+        <h2>NEW</h2>
+  
+        <!-- new_content_card 1 -->
+        <div class="new_content_card card-1">
+          <h3><a href="index.html">Hydrogen VS Electric Cars</a></h3>
+  
+          <p>Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
+  
+        <!-- new_content_card 2 -->
+        <div class="new_content_card card-2">
+          <h3><a href="index.html">The Downsides of AI Artistry</a></h3>
+  
+          <p>What are the possible adverse effects of on-demand AI image generation?
+          </p>
+        </div>
+  
+        <!-- new_content_card 3 -->
+        <div class="new_content_card card-3">
+          <h3><a href="index.html">Is VC Funding Drying Up?</a></h3>
+  
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- news_highlights -->
+    <div class="news_highlights d-flex">
+
+      <!-- highlight 1 -->
+      <div class="highlight highlight-1 d-flex">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="image-retro-pcs">
+
+        <div class="highlight_info">
+          <h2>01</h2>
+          <h3><a href="index.html">Reviving Retro PCs</a></h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+
+      <!-- highlight 2 -->
+      <div class="highlight highlight-2 d-flex">
+        <img src="./assets/images/image-top-laptops.jpg" alt="image-top-laptops">
+
+        <div class="highlight_info">
+          <h2>02</h2>
+          <h3><a href="index.html">Top 10 Laptops of 2022</a></h3>
+          <p>Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </div>
+
+      <!-- highlight 3 -->
+      <div class="highlight highlight-3 d-flex">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="image-gaming-growth">
+
+        <div class="highlight_info">
+          <h2>03</h2>
+          <h3><a href="index.html">The Growth of Gaming</a></h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+<script src="script.js"></script>
+</body>
+
+</html>
